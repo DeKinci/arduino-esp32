@@ -4,7 +4,7 @@
 #include "Arduino.h"
 
 #ifndef CONFIG_ARDUINO_LOOP_STACK_SIZE
-#define CONFIG_ARDUINO_LOOP_STACK_SIZE 8192
+#define CONFIG_ARDUINO_LOOP_STACK_SIZE 16384
 #endif
 
 TaskHandle_t loopTaskHandle = NULL;
